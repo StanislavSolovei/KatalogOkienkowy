@@ -30,6 +30,8 @@ namespace KatalogOkienkowy
             };
 
             EtykietaLiczbyProduktow.Text = $"Liczba produktów: {produkty.Count}";
+
+            EtykietaWartoscMagazyn.Text = $"Wartość magazynu: {Produkt.ObliczWartoscMagazynu(produkty) } zł";
         }
     }
 }

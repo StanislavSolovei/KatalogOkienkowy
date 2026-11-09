@@ -36,7 +36,7 @@ namespace KatalogOkienkowy
             TextBlock dopisek = new TextBlock();
             dopisek.Text = "To zostało dodane bezpośrednio w kodzie C#";
             dopisek.FontSize = 14;
-            GlownyStackPanel.Children.Add(dopisek);
+            //GlownyStackPanel.Children.Add(dopisek);
         }
     }
 }
